@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.container{
+    width: 300px;
+    height: 385px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+img{
+    width: 100%;
+    margin-top: 1px;
+}
+
+.controles{
+    position: relative;
+}
+
+.volume{
+    position: absolute;
+    left: 45%;
+    display: inline-block;
+}
+
+#baixo{
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    left: -120%;
+    cursor: pointer;
+}
+
+#alto{
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    right: -210%;
+    cursor: pointer;
+}
+
+#barraVolume{
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    display: inline-block;
+    height: 5px;
+    width: 80px;
+
+}
+
+#barra{
+    position: absolute;
+    display: inline-block;
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+}
+
+#play{
+    width: 70px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.btnVolume{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+#rangeProgresso{
+    position: absolute;
+    top: 50%;
+    margin-left: 1px;
+    width: 175px;
+    cursor: pointer;
+}
+
+span{
+    margin-left: 50px;
+}

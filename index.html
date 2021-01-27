@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Musica Player</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./img/album.jpg" alt="" id="album">
+        <div class="controles">
+
+        </div>
+        <audio id="musica">
+            <source src="./musica/Cartoon - On & On.mp3" type="audio/mp3" />
+        </audio>
+        <div class="controles">
+            <img src="./img/play.png" alt="" id="play">
+            <div class="volume">
+                <h6 id="baixo">-</h6>
+                <div id="barraVolume">
+                    <div id="barra"></div>
+                </div>
+                <h6 id="alto">+</h6>
+            </div>
+            <input type="range" id="rangeProgresso" value="0" min="0">
+            <span id="tempo">00:00:00</span>
+            <img src="./img/volume.png" class="btnVolume" id="btnVolume">
+        </div>
+
+    </div>
+
+
+    <script src="audioPlayer.js"></script>
+</body>
+
+</html>
