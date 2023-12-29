@@ -1,4 +1,4 @@
 # music-player
-Reprodutor de musica em HTML5,CSS e JavaScript
+Player de musica em HTML5,CSS e JavaScript
 
-link para o player de musica: https://luanferreira93.github.io/music-player/
+link : https://luancarlospng.github.io/music-player/
